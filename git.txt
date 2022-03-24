@@ -1,0 +1,29 @@
+git init  
+para crear un repositorio nuevo 
+
+git clone /path/to/repository
+crea una copia local del repositorio en curso 
+
+git add. 
+para registar cambios en el index 
+
+git push origin master 
+para enviar los cambios de la copia local al repositorio remoto 
+
+git remote add origin <server>
+para clonar y crear un repositorio remoto 
+
+git pull
+para actualizar el repositorio local por el mas nuevo 
+
+git checkout -- <filename> 
+para remplazar cambios locales en caso de un error 
+
+gir reset --hard origin /master 
+para deshacer todos los cambio locales y regresar al repositorio remoto mas actual 
+
+git config color.ui true 
+para colores especciales para la consola 
+
+gitk
+interfaz grafica por defecto 
